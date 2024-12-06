@@ -7,7 +7,7 @@ The 1 2 3 4 keys are used to select the particle type.
 1 - void particle, for it you can dectroy another particles.
 2 - Static immobile particle, it haven`t any phisical property
 3 - Main particle, it is Sand. Implements sand physics.
-4 - Beta test particle. It try to implement water physics. *** IT WORKS BAD. IT CAN KILL YOUR FPS IN PROGRAM***
+4 - Beta test particle. It try to implement water physics. ***IT WORKS BAD. IT CAN KILL YOUR FPS IN PROGRAM***
 
 
 
