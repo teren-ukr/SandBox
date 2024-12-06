@@ -1,0 +1,39 @@
+int8_t rndNum = generateRandom();
+
+                if (is_Valid_Index(x + rndNum, y , grid) &&
+                    grid[x + rndNum][y].type == ETYPE::None) {
+
+                    bufGrid[x + rndNum][y].set_type(ETYPE::Water);
+                    bufGrid[x][y].set_type(ETYPE::None);
+                }
+
+--ÐÀÍÄÎÌÍ² ÏÅÐÅÌ²ÙÅÍÍ‗ ÏÎ X עא Y
+
+
+
+
+
+
+
+if (is_Valid_Index(x + rndNum, y, grid) &&
+                    grid[x + rndNum][y].type == ETYPE::None &&
+                    is_Valid_Index(x, y + 1, grid) &&
+                    grid[x][y + 1].type == ETYPE::None) {
+
+                    bufGrid[x + rndNum][y].set_type(ETYPE::Water);
+                    bufGrid[x][y].set_type(ETYPE::None);
+
+                }
+                else if (is_Valid_Index(x, y + 1, grid) &&
+                    grid[x][y + 1].type == ETYPE::None) {
+
+                    bufGrid[x][y + 1].set_type(ETYPE::Water);
+                    bufGrid[x][y].set_type(ETYPE::None);
+
+                }
+                else {
+                    // ‗ךשמ םו גהאכמסÿ חםאיעט םמגו ל³סצו הכÿ גמהט, חאכטרא÷למ גמהף םא ל³סצ³
+                    bufGrid[x][y].set_type(ETYPE::Water);
+                }
+
+ --ÐÀÍÄÎÌÍÅ ÇÑÈÏÀÍÍ‗ Ç ÏÅÐÅÌ²ÙÅÍÍ‗Ì ÏÐÀÂÎ ÂË²ÂÎ( ‗Ê ÊÎÍÔÅÒ² ÀÁÎ ²ÑÊÎÐÊÈ)
