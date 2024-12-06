@@ -37,7 +37,7 @@ This pet project was developed from scratch using the SFML library for graphical
 
 ### **Installation**  
 
-1. Download the archive from the **Release** folder.  
+1. Download the release version from GitHub. After that open zip and find the **Release** folder.  
 2. Unzip it.  
 3. Run the **SandBox.exe** file.  
 
