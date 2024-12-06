@@ -12,27 +12,23 @@ This pet project was developed from scratch using the SFML library for graphical
 2. **Adaptation for Algorithmic Work / Implementation of Sand Physics**  
    The engine was refactored for easier manipulation of grid elements. This laid the foundation for implementing physics algorithms.  
 
-
-![video1](https://github.com/user-attachments/assets/2c29d561-58f7-4466-919e-5f8309550d59)
-
+![video1 (1)](https://github.com/user-attachments/assets/39e881bb-1977-4188-becf-37b97b13aaea)
 
 
 3. **improvement and optimization**  
    The engine was updated to support double buffering and multi-frame animation, enabling the simulation of sand-like particle physics.  A lot of work was done on optimization, which allowed to increase the scale of the grid and maintain a stable FPS (around 80 - 140 depending on the CPU)
 
-
-
-![video2](https://github.com/user-attachments/assets/2de3b7be-9607-4b6c-ba3a-5f175cf014ad)
+![video2](https://github.com/user-attachments/assets/e86557e6-5bb7-4511-9e4e-8c6dfe6f4675)
 
 
   
 4. **Current Status**  
    The project is in beta. Core functionality is implemented, and bugs related to engine have been fixed.  The functioning of sand physics has been brought to an ideal. As for the water, everything is not so good. For good water physics, the engine needs to be reworked a bit
 
+![video3](https://github.com/user-attachments/assets/ac71e5bb-d297-419b-99f3-84f4a7540bd1)
 
-![video3](https://github.com/user-attachments/assets/2bd542a6-b0c3-4ad8-b4a0-c57fd321e1cd)
 
-![video4](https://github.com/user-attachments/assets/d5a51633-dea7-46e7-86a2-616b8fe5188d)
+![doc_2024-12-07_00-17-25](https://github.com/user-attachments/assets/94bc2f8b-22c0-4e0b-b617-ae14f35e04ee)
 
 
 ---
